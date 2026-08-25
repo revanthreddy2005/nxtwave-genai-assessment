@@ -1,0 +1,19 @@
+Imagine you are taking an exam in school. In a closed-book exam, you must answer questions using only your memory. If you forget something, you might guess the wrong answer. In an open-book exam, you can look at your textbook, find the correct page, read the information,and then write a clear answer. Normal Artificial Intelligence (AI) models work like a closed-book exam. They use only what they remembered during their training. RAG is a method that gives AI an open-book exam. RAG stands for Retrieval-Augmented Generation. Let us break down these three words in simple language:
+
+1. Retrieval: This means finding or getting the right information from a storage place, like searching for a page in a book.
+2. Augmented: This means adding extra help or extra facts to make something better.
+3. Generation: This means creating or writing an answer.
+
+So, RAG means finding the right information first, adding it to the question, and then creating a correct answer.
+
+Why does RAG matter? AI models can sometimes make mistakes or make up fake answers when they do not know the facts. This mistake is called a hallucination. Also, AI models do not know your private company files or news that happened today. RAG solves this problem. It allows the AI to search your private documents or up-to-date files before it answers, so the answer is accurate, correct, and trustworthy.
+
+How does RAG work step-by-step?
+Step 1: You ask a question (for example, 'What is the holiday policy of my company?').
+Step 2: Retrieval. The RAG system searches through your company document to find the exact sentences about holiday rules.
+Step 3: Augment. The system combines your question with the found sentences into one complete instruction.
+Step 4: Generation. The AI reads the found sentences and writes a polite, easy-to-read answer for you.
+
+Here is a practical example. Imagine a student named Amit who wants to know the last date to submit a scholarship form. He asks an AI assistant. Without RAG, the AI might give an old date from last year because its memory is old. With RAG, the AI first searches the latest scholarship PDF uploaded today, finds the text 'Last date is October 31', and then answers: 'The last date to submit your scholarship form is October 31.'
+
+In summary, RAG is a powerful tool in AI that combines searching for facts with writing answers. It ensures AI gives accurate, fresh, and useful information.

@@ -1,0 +1,51 @@
+{
+  "overall": "PASS",
+  "checks": [
+    {
+      "id": "R1",
+      "name": "Accuracy",
+      "result": "PASS",
+      "reason": "The lesson accurately defines RAG, explains its three steps correctly, highlights its core benefits, and includes realistic limitations without making exaggerated or false claims."
+    },
+    {
+      "id": "R2",
+      "name": "Beginner Friendly",
+      "result": "PASS",
+      "reason": "The lesson uses an intuitive open-book exam analogy and plain language that is easily accessible to a learner with limited English vocabulary."
+    },
+    {
+      "id": "R3",
+      "name": "Key Concepts",
+      "result": "PASS",
+      "reason": "The lesson comprehensively covers what RAG is, why it is needed to prevent AI hallucinations and access private data, and how the three-step process functions."
+    },
+    {
+      "id": "R4",
+      "name": "Example",
+      "result": "PASS",
+      "reason": "The lesson uses a relevant, simple practical example of a student asking a college chatbot about exam dates from an official notice board."
+    },
+    {
+      "id": "R5",
+      "name": "Jargon Control",
+      "result": "PASS",
+      "reason": "Key terms such as Retrieval, Augmented, and Generation are explicitly broken down and explained in simple terms when introduced."
+    },
+    {
+      "id": "R6",
+      "name": "Teaching Flow",
+      "result": "PASS",
+      "reason": "The lesson follows a smooth, logical teaching sequence starting from a simple analogy, introducing core concepts step-by-step, explaining importance and limitations, and ending with a concrete example."
+    },
+    {
+      "id": "R7",
+      "name": "Grounding",
+      "result": "PASS",
+      "reason": "All factual claims align directly with the trusted knowledge base and do not introduce contradictory or unsupported claims."
+    }
+  ],
+  "failed_checks": [],
+  "feedback": [
+    "Great job. To further enhance understanding for non-English background students, consider briefly defining the word 'prompt' when describing the augmentation step."
+  ]
+}

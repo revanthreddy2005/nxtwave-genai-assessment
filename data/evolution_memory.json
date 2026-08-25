@@ -1,0 +1,14 @@
+{
+  "common_failures": [
+    {
+      "check_id": "R1",
+      "check_name": "Accuracy",
+      "lesson": "The lesson falsely claims that 'RAG guarantees that the AI will always produce a correct answer.' RAG improves accuracy but does not guarantee correct answers, as retrieval errors or misinterpretations can still occur."
+    },
+    {
+      "check_id": "R7",
+      "check_name": "Grounding",
+      "lesson": "The statement 'In fact, RAG guarantees that the AI will always produce a correct answer' directly contradicts the provided knowledge base, which explicitly states that RAG does not guarantee correct answers."
+    }
+  ]
+}

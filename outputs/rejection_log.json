@@ -1,0 +1,14 @@
+[
+  {
+    "attempt": 1,
+    "failed_checks": [
+      "R1",
+      "R7"
+    ],
+    "feedback": [
+      "Remove the claim that RAG guarantees that the AI will always produce a correct answer.",
+      "Explicitly state that while RAG reduces mistakes and grounds responses in factual source documents, it can still make errors if retrieved information is incorrect, incomplete, or incorrectly interpreted by the AI."
+    ],
+    "previous_lesson": "Imagine taking a test without any notes. You rely only on your memory. Sometimes you forget facts or mix up details. Now imagine an open-book test. You can look at reliable documents to find correct facts before writing your answer. RAG stands for Retrieval-Augmented Generation. It works like an open-book test for Artificial Intelligence. Normally, an AI model answers questions using only what it remembered from its past training. RAG improves this process in three steps. First, Retrieval means searching a database of trusted documents to find relevant facts related to your question. Second, Augmented means adding those found facts into the prompt sent to the AI. Third, Generation means the AI writes a simple answer based on both your question and the retrieved facts. RAG is important because standard AI can sometimes invent wrong facts when it does not know the answer. By using RAG, the AI can read fresh information such as new company rules or personal documents. In fact, RAG guarantees that the AI will always produce a correct answer. As a practical example, think of a college student asking a college chatbot about exam dates. A RAG system searches the official college notice board PDF, finds the exact dates, and then writes a simple response for the student."
+  }
+]

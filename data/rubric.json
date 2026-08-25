@@ -1,0 +1,55 @@
+{
+  "rubric_name": "Introduction to RAG - Beginner Lesson Quality Rubric",
+  "version": "1.0",
+  "target_learner": {
+    "education": "12th-grade graduate",
+    "language_context": "India",
+    "english_level": "limited English vocabulary",
+    "background": "non-English-medium",
+    "prior_knowledge": "assume zero knowledge of RAG and related AI concepts"
+  },
+  "checks": [
+    {
+      "id": "R1",
+      "name": "Accuracy",
+      "description": "The lesson must contain technically correct explanations of RAG and must not include misleading or false claims.",
+      "pass_condition": "Every important technical claim about RAG is correct."
+    },
+    {
+      "id": "R2",
+      "name": "Beginner Friendly",
+      "description": "The lesson must be understandable to the target learner using simple and clear English.",
+      "pass_condition": "The lesson explains ideas in simple language without assuming prior AI knowledge."
+    },
+    {
+      "id": "R3",
+      "name": "Key Concepts",
+      "description": "The lesson must explain what RAG is, why it matters, and the basic way it works.",
+      "pass_condition": "What, why, and how of RAG are clearly covered."
+    },
+    {
+      "id": "R4",
+      "name": "Example",
+      "description": "The lesson must teach the idea using at least one simple practical example.",
+      "pass_condition": "At least one example clearly shows how RAG can be useful."
+    },
+    {
+      "id": "R5",
+      "name": "Jargon Control",
+      "description": "Important technical terms must be explained in simple language before or when they are used.",
+      "pass_condition": "A beginner can understand important technical terms from the lesson itself."
+    },
+    {
+      "id": "R6",
+      "name": "Teaching Flow",
+      "description": "The lesson must follow a logical teaching sequence from basic ideas to more detailed ideas.",
+      "pass_condition": "The lesson has a clear and coherent progression."
+    },
+    {
+      "id": "R7",
+      "name": "Grounding",
+      "description": "The lesson must stay consistent with the knowledge available to the generation and evaluation system.",
+      "pass_condition": "Important factual claims can be supported by the available knowledge context."
+    }
+  ]
+}
