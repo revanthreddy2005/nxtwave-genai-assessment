@@ -47,6 +47,7 @@ Given a topic such as `Introduction to RAG`, the system:
                             |
                             v
                        Evaluator
+```
 
 ## Evaluation Rubric
 
@@ -70,7 +71,7 @@ Important technical claims are checked against this knowledge base rather than r
 
 This helps detect unsupported or contradictory claims.
 
-Self-Evolution
+## Self-Evolution
 
 The system maintains persistent evolution memory in:
 
@@ -86,11 +87,11 @@ was incorrect.
 
 The system stored this failure under Accuracy and Grounding so that future generations can avoid repeating the same type of mistake.
 
-Demonstrated Agentic Loop
+## Demonstrated Agentic Loop
 
 The system was tested using a controlled deliberate error.
 
-Version 1
+**Version 1**
 
 The generated lesson intentionally contained an incorrect absolute claim about RAG accuracy.
 
@@ -101,7 +102,7 @@ R7 - Grounding: FAIL
 
 The evaluator then produced actionable feedback explaining that RAG does not guarantee completely correct answers.
 
-Version 2
+**Version 2**
 
 The regeneration step used the previous lesson and evaluator feedback to correct the problem.
 
@@ -118,7 +119,8 @@ R7 - PASS
 The final result was:
 
 OVERALL: PASS
-Project Structure
+
+## Project Structure
 nxtwave-genai-assessment/
 |
 ├── app/
@@ -156,13 +158,15 @@ nxtwave-genai-assessment/
 ├── main.py
 ├── README.md
 └── requirements.txt
-Requirements
+
+## Requirements
+
 Python 3.11+
 Google Gemini API key
 Dependencies listed in requirements.txt
 Setup
 
-Create a virtual environment:
+## Create a virtual environment:
 
 python -m venv .venv
 
@@ -180,7 +184,7 @@ GOOGLE_API_KEY=your_api_key_here
 
 The .env file is excluded from Git using .gitignore.
 
-Running the Agent
+## Running the Agent
 
 Run:
 
@@ -210,11 +214,11 @@ Structured Evaluation
 
 The evaluator returns a structured evaluation instead of unstructured feedback. This makes the PASS/FAIL decision machine-readable and allows the workflow to make routing decisions.
 
-Conditional Regeneration
+## Conditional Regeneration
 
 The workflow only regenerates content when evaluation fails.
 
-Retry Limit
+## Retry Limit
 
 A maximum retry count prevents the workflow from entering an infinite regeneration loop.
 
@@ -222,11 +226,11 @@ Persistent Rejection History
 
 Rejected attempts and evaluator feedback are stored so the improvement process can be inspected later.
 
-Evolution Memory
+## Evolution Memory
 
 Reusable lessons from previous failures are persisted and provided to future generation attempts.
 
-Example Output
+## Example Output
 
 Final evaluation:
 
@@ -236,7 +240,7 @@ Final evaluation:
 
 The complete evaluation and rejection history are available in the outputs/ directory.
 
-Assessment Demonstration
+## Assessment Demonstration
 
 The project includes a controlled demonstration showing:
 
