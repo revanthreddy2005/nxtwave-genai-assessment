@@ -1,4 +1,4 @@
-# NxtWave GenAI Content Systems Agent
+#  GenAI Content Systems Agent
 
 An agentic GenAI content generation and evaluation system built for the NxtWave GenAI Engineer assessment.
 
